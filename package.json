@@ -1,0 +1,24 @@
+{
+  "name": "create-test-lee",
+  "version": "0.0.1",
+  "description": "Testing making a create package for npm init templates",
+  "main": "src/index.js",
+  "scripts": {
+    "debug": "node --nolazy --inspect-brk=9229 src/index.js",
+    "lint": "eslint src/",
+    "start": "node src/index.js"
+  },
+  "author": "Lee Olsen",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "fs-extra": "^7.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}
